@@ -9,5 +9,6 @@ public class holaMundo {
         String nombre ;
         nombre = sc.nextLine();
         System.out.println("Bienvenido" + nombre);
+        sc.close();
     }
 }

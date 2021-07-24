@@ -25,6 +25,7 @@ public class DoWhile {
             }
         } while(numero!=aleatorio);
         System.out.println("felicidades ese es el numero");
+        entra.close();
     } 
 
 }

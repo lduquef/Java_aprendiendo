@@ -29,5 +29,6 @@ public class condicional {
 
         }
         System.out.println("el día ingresado es: "+dia);
+        sc.close();
     }
 }

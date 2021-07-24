@@ -24,5 +24,6 @@ public class practicaWhile {
             }
         }
         System.out.println("felicidades ese es el numero");
+        entra.close();
     }
 }
