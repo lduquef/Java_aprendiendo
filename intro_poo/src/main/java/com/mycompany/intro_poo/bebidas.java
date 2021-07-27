@@ -25,8 +25,8 @@ public class bebidas {
 
     public String get_cantAzucar(){
         return "la cantidad de azucar es"+ cantAzucar;}
-    public void set_sabor() {
-        sabor ="Naranja" ;   }
+    public void set_sabor(String sab) {
+        sabor =sab  ;   }
     public String get_sabor() {
         return "el sabor es: " + sabor;}
     public String get_datosGenerales() {
