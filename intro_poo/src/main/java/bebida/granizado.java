@@ -1,6 +1,6 @@
 
 package bebida;
-public interface granizado {
+public interface granizado extends jugo {
     String llevarOsitio(String llevarositio);
-    
+
 }

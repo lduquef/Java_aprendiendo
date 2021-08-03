@@ -1,8 +1,11 @@
 package bebida;
 import java.lang.Comparable;
-abstract class Bebida implements Comparable{
+abstract class Bebida implements Comparable,jugo{
     private String nombre;
     private int cantidad;
+    public double setSumarEnvase(double empaque){
+        return jugo.precioEmpaque;
+    }
     public Bebida(String nom,int cantidad){
         nombre = nom;
         this.cantidad = cantidad;

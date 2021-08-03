@@ -4,7 +4,7 @@ class refresco extends Bebida implements granizado{
     
     private String tipo;
     private String sabor;
-
+    
     public refresco(String nom,int cant,String tipo,String sabor) {
         super(nom,cant);
         this.tipo =tipo;
